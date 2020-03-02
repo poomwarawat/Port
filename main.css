@@ -3,8 +3,28 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-.container{
-    height: 100%;
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+}
+.nav > div{
+    width: 150px;
+    color: white;
+    text-align: center;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
 }
 .header{
     background-color: rgb(20, 20, 20);
@@ -58,6 +78,7 @@ body{
     padding: 60px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
 }
 .info > div{
     margin: 10px;
@@ -113,6 +134,7 @@ body{
     margin: 10px;
 }
 .project{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -158,6 +180,7 @@ body{
 .portfolio{
     padding: 20px;
     color: rgb(43, 43, 43);
+    justify-content: center;
 }
 .portfolio h3{
     text-decoration: underline;
@@ -166,6 +189,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 .port-data > div{
     width: 600px;
@@ -192,7 +216,56 @@ body{
         width: 600px;
         height: 250px;
     }
+    .nav{
+        width: 100%;
+        position: relative;
+        opacity: 1;
+    }
 }
+.class-asignment{
+    color: white;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.class-asignment > div{
+    height: 100%;
+    width: 800px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px;
+}
+.class-asignment p {
+    margin-top: 50px;
+}
+.class-asignment a{
+    color: white;
+    text-decoration: none;
+}
+#section2{
+    padding: 20px;
+}
+.footer{
+    background-color: rgb(241, 241, 241);
+    color: rgb(128, 128, 128);
+    padding: 50px;
+}
+.data-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.data-footer > div{
+    width: 350px;
+    padding: 10px;
+    padding-bottom: 80px;
+    height: 100%;
+}
+
+
+
 
 
 
