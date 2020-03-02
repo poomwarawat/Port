@@ -177,40 +177,6 @@ html{
     width: 70%;
     border-radius: 20px;
 }
-.portfolio{
-    padding: 20px;
-    color: rgb(43, 43, 43);
-    justify-content: center;
-}
-.portfolio h3{
-    text-decoration: underline;
-}
-.port-data{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-}
-.port-data > div{
-    width: 600px;
-    height: 400px;
-}
-.port-data div >div{
-    text-align: center;
-    width: 100%;
-}
-.port-data img{
-    border-radius: 20px;
-    width: 50%;
-    margin-top: 20px;
-}
-.text-data{
-    display: flex; 
-}
-.text-data p { 
-    margin-top: auto;
-    margin-bottom: auto; /* Important */ 
-}
 @media only screen and (max-width: 767px){
     .port-data > div{
         width: 600px;
@@ -262,6 +228,17 @@ html{
     padding: 10px;
     padding-bottom: 80px;
     height: 100%;
+}
+.hp{
+    padding: 100px;
+}
+.box-img{
+    width: 100%;
+    height: 350px;
+}
+.box-img img{
+    width: 100%;
+    
 }
 
 
