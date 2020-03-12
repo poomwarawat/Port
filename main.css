@@ -240,6 +240,18 @@ html{
     width: 100%;
     
 }
+.chanel{
+    padding: 20px;
+}
+.git{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.git > div{
+    text-align: center;
+}
 
 
 
